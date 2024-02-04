@@ -47,6 +47,3 @@ async function postSheet(values) {
 };
 
 module.exports = { getSheet, postSheet };
-
-// https://github.com/vitorLostadaC/Node.js--Google-Sheets/blob/main/index.js
-// https://www.youtube.com/watch?v=ZjZGczINqe8&t=988s
