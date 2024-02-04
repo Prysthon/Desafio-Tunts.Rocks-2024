@@ -1,7 +1,7 @@
 const { expect } = require ('chai');
 const sinon = require('sinon');
 
-const spreadsheet = require("../src/spreadsheet")
+const spreadsheet = require("../src/spreadsheet");
 
 const { initialStudents, finalStudents } = require("./mocks/student.mock");
 

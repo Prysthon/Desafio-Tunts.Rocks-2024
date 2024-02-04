@@ -5,13 +5,13 @@ function calculateAverage(grades) {
 
 function determineSituation(student) {
     const attendanceThreshold = 60 * 0.25;
-    if (student[2] >= attendanceThreshold) return [...student, "Reprovado por Falta", 0];
+    if (student[2] > attendanceThreshold) return [...student, "Reprovado por Falta", 0];
 
     const average = calculateAverage(student);
 
     if (average >= 70) return [...student, "Aprovado", 0];
     else if (average < 50) return [...student, "Reprovado por Nota", 0];
-    else return [...student, "Exame Final", 100 - average];
+    else return [...student, "Exame Final", Math.ceil(100 - average)];
 }
 
 function calculateSituation(data) {

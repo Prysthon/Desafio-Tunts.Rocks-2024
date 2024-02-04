@@ -1,10 +1,10 @@
 const { expect } = require ('chai');
-const { calculateSituation } = require ("../src/student")
+const { calculateSituation } = require ("../src/student");
 
 const {
   initialStudents,
   finalStudents
-} = require("./mocks/student.mock")
+} = require("./mocks/student.mock");
 
 describe('1. Student Tests', () => {
   it('should calculate situation for a student and return rights values', function () {
