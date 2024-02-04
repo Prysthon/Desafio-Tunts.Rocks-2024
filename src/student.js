@@ -11,7 +11,7 @@ function determineSituation(student) {
 
     if (average >= 70) return [...student, "Aprovado", 0];
     else if (average < 50) return [...student, "Reprovado por Nota", 0];
-    else return [...student, "Exame Final", 100 - average];
+    else return [...student, "Exame Final", Math.ceil(100 - average)];
 }
 
 function calculateSituation(data) {
