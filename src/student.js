@@ -5,7 +5,7 @@ function calculateAverage(grades) {
 
 function determineSituation(student) {
     const attendanceThreshold = 60 * 0.25;
-    if (student[2] >= attendanceThreshold) return [...student, "Reprovado por Falta", 0];
+    if (student[2] > attendanceThreshold) return [...student, "Reprovado por Falta", 0];
 
     const average = calculateAverage(student);
 
