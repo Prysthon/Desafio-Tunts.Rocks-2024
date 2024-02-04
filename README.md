@@ -1,6 +1,6 @@
 # Desafio Tunts Rocks
 <!-- Breve comentário sobre o projeto -->
-Neste projeto foi desenvolvido uma **aplicação para calcular as médias de alunos** presentes no Google Sheets.
+Neste projeto foi desenvolvido uma **aplicação para calcular as médias de alunos** presentes no Google Sheets.\n
 This project 
 **sheets:** https://docs.google.com/spreadsheets/d/1oZrt6P0iQnA5bJ0kb9XobwirsydGpidkm3YobZijPkQ/edit#gid=0
 
