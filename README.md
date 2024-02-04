@@ -1,4 +1,5 @@
 # Desafio Tunts Rocks
+sheets: https://docs.google.com/spreadsheets/d/1oZrt6P0iQnA5bJ0kb9XobwirsydGpidkm3YobZijPkQ/edit#gid=0
 <!-- Breve comentário sobre o projeto -->
 Neste projeto foi **desenvolvido uma API utilizando a arquitetura MSC** para um sistema de gerenciamento de vendas no formato dropshipping.
 
@@ -21,31 +22,20 @@ Neste projeto foi **desenvolvido uma API utilizando a arquitetura MSC** para um 
 ## 🧑‍💻 Como executar
 > Siga os passos para executar o projeto corretamente:
 1. **Instale** as dependências:
-    1. Rode os serviços node e db com o comando:
-    ```
-        docker-compose up -d --build
-    ```
-    2. Use o comando: 
-    ```
-        docker exec -it blogs_api bash
-    ```
-    3. Dentro do container, instale as dependências: 
     ```
         npm install
     ```
+    ou
+    ```
+        docker-compose up
+    ```
 
-1. Como **executar** a aplicação:
-    1. Dentro do container, crie o banco de dados:
-    ```
-        npm run restore
-    ```
-    2. Inicie a aplicação:
+1. **execute** a aplicação:
     ```
         npm start
     ```
 
-1. Como **testar** a aplicação:
-    1. Dentro do container, digite o comando:
+1. Caso queira **testar** a aplicação:
     ```
         npm test
     ```
