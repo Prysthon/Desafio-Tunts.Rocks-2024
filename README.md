@@ -1,23 +1,22 @@
 # Desafio Tunts Rocks
-sheets: https://docs.google.com/spreadsheets/d/1oZrt6P0iQnA5bJ0kb9XobwirsydGpidkm3YobZijPkQ/edit#gid=0
 <!-- Breve comentário sobre o projeto -->
-Neste projeto foi **desenvolvido uma API utilizando a arquitetura MSC** para um sistema de gerenciamento de vendas no formato dropshipping.
+Neste projeto foi desenvolvido uma **aplicação para calcular as médias de alunos** presentes no Google Sheets.
+This project 
+**sheets:** https://docs.google.com/spreadsheets/d/1oZrt6P0iQnA5bJ0kb9XobwirsydGpidkm3YobZijPkQ/edit#gid=0
 
 ## 🚀 Habilidades
 > Para esse projeto, foi necessário:
 <!-- Listar 2 a 3 habilidades desenvolvidas -->
-- Desenvolver uma API RESTful de um CRUD (Create, Read, Update e Delete);
-- Utilizar a arquitetura MSC (Model, Service, Controller) para organizar o código;
-- Criar testes unitários para APIs REST aplicando o conceito de TDD (Test-driven development).
+- Utilizar a API do Google Sheets;
+- Criar testes unitários aplicando o conceito de TDD (Test-driven development).
 
 ## 🤖 Tecnologias
 > Este projeto foi desenvolvido com as seguintes tecnologias:
 <!-- Listar 3 a 5 principais tecnologias usadas -->
-- Docker
+- Google API
 - Node.js
-- Express
-- Mocha, Chai, Sinon
-- MySQL
+- Chai, Sinon
+- Docker
 
 ## 🧑‍💻 Como executar
 > Siga os passos para executar o projeto corretamente:
